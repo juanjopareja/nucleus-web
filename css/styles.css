@@ -291,3 +291,55 @@ img {
         text-align: left;
     }
 }
+
+
+/* Comments */
+.comments {
+    background-color: var(--primary);
+    padding: 5rem 0;
+}
+
+.comments__heading {
+    color: var(--white);
+}
+
+.comments__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+@media (min-width: 768px) {
+    .comments__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.comment {
+    box-shadow: 0px 0px 15px 3px rgb(0 0 0 / .15);
+    background-color: var(--white);
+    padding: 2rem;
+    position: relative;
+}
+
+.comments__text {
+    padding-left: 4rem;
+}
+
+.comments__text::before {
+    content: '';
+    background-image: url(../img/quotation.png);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.comments__autor {
+    color: var(--primary);
+    font-weight: 700;
+    text-align: right;
+}
