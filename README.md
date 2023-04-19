@@ -12,6 +12,7 @@ Página web para una app de gestión de pagos e ingresos, que forma parte de un 
   * [TechPRO](https://github.com/juanjopareja/techpro-web)
   * [Forest Architecture](https://github.com/juanjopareja/forest-architecture-web)
   * [Nucleus](https://github.com/juanjopareja/nucleus-web)
+  * [La Cafetería](https://github.com/juanjopareja/la-cafeteria-web)
 
 ## Vista previa
 <p align="center"><br>
